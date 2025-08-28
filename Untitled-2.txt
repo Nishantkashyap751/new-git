@@ -10,3 +10,4 @@
 10.git branch "branchname(feature_nishant)".
 11.git checkout branchname.
 12.git clone "url" (existing project copies to yor system).
+13.git log(checks).
