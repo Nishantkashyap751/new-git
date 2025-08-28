@@ -1,0 +1,12 @@
+1.git config.
+2.git init.
+3.git status.
+4.git config --global user.name "username".
+5.git config --global user.email "username@email".
+6.git config --list.
+7.git commit -m "inital commit".
+8.git remote add origin "URL".
+9.git push origin main/master
+10.git branch "branchname(feature_nishant)".
+11.git checkout branchname.
+12.git clone "url" (existing project copies to yor system).
