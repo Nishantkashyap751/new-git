@@ -1,0 +1,410 @@
+[
+    {
+        "id": 1,
+        "slug": "bali-indonesia",
+        "name": "Bali, Indonesia",
+        "location": "Indonesia",
+        "type": "beach",
+        "price": 85000,
+        "rating": 4.8,
+        "duration": "7 Days / 6 Nights",
+        "description": "Experience the magic of Bali with its stunning beaches, ancient temples, and vibrant culture. This tropical paradise offers the perfect blend of relaxation and adventure. Explore lush rice terraces, visit sacred temples, enjoy world-class surfing, and indulge in luxurious spa treatments.",
+        "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=800",
+        "featured": true,
+        "gallery": [
+            "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=600",
+            "https://images.unsplash.com/photo-1555400038-63f5ba517a47?w=600",
+            "https://images.unsplash.com/photo-1559628376-f3fe5f782a2e?w=600",
+            "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?w=600"
+        ],
+        "highlights": [
+            "Visit the iconic Tanah Lot Temple",
+            "Explore the Sacred Monkey Forest Sanctuary",
+            "Relax on pristine beaches of Seminyak and Nusa Dua",
+            "Experience traditional Balinese dance performances",
+            "Trek through the stunning Tegalalang Rice Terraces"
+        ],
+        "included": [
+            "Round-trip flights from major Indian cities",
+            "6 nights accommodation in 4-star beach resort",
+            "Daily breakfast and 3 dinners",
+            "Airport transfers and local transportation",
+            "Guided temple tours with English-speaking guide",
+            "Travel insurance"
+        ],
+        "itinerary": [
+            {
+                "day": 1,
+                "title": "Arrival in Bali",
+                "description": "Arrive at Ngurah Rai International Airport. Meet and greet by our representative. Transfer to your beach resort in Seminyak. Evening at leisure to relax by the pool or explore the nearby beach."
+            },
+            {
+                "day": 2,
+                "title": "Ubud Cultural Tour",
+                "description": "Visit the Sacred Monkey Forest, explore Ubud Art Market, witness traditional Balinese dance at Ubud Palace, and trek through the magnificent Tegalalang Rice Terraces."
+            },
+            {
+                "day": 3,
+                "title": "Temple Trail",
+                "description": "Full day temple tour visiting Tanah Lot Temple, Uluwatu Temple, and Besakih Temple. Experience the spectacular sunset at Uluwatu with traditional Kecak dance performance."
+            },
+            {
+                "day": 4,
+                "title": "Water Sports & Beach Day",
+                "description": "Enjoy water sports at Tanjung Benoa including parasailing, banana boat rides, and jet skiing. Afternoon at leisure on Nusa Dua beach for relaxation."
+            },
+            {
+                "day": 5,
+                "title": "Island Hopping",
+                "description": "Day trip to Nusa Penida island. Visit Kelingking Beach, Angel's Billabong, and Broken Beach. Snorkeling at Crystal Bay to see vibrant marine life."
+            },
+            {
+                "day": 6,
+                "title": "Spa & Shopping",
+                "description": "Morning spa session with traditional Balinese massage. Afternoon shopping at Seminyak's boutiques and art galleries. Farewell dinner at a beachfront restaurant."
+            },
+            {
+                "day": 7,
+                "title": "Departure",
+                "description": "Enjoy breakfast at the resort. Check-out and transfer to the airport for your return flight home with wonderful memories of Bali."
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "slug": "manali-himachal",
+        "name": "Manali, Himachal Pradesh",
+        "location": "India",
+        "type": "mountain",
+        "price": 35000,
+        "rating": 4.6,
+        "duration": "5 Days / 4 Nights",
+        "description": "Discover the breathtaking beauty of Manali nestled in the Himalayas. Experience snow-capped mountains, adventure sports, and serene landscapes. Perfect for nature lovers and adventure enthusiasts seeking an escape from city life.",
+        "image": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=800",
+        "gallery": [
+            "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=600",
+            "https://images.unsplash.com/photo-1609137144813-7d9921338f24?w=600",
+            "https://images.unsplash.com/photo-1605649487212-47bdab064df7?w=600",
+            "https://images.unsplash.com/photo-1562979314-bee7453e911c?w=600"
+        ],
+        "highlights": [
+            "Visit the ancient Hadimba Temple",
+            "Adventure activities at Solang Valley",
+            "Explore Rohtang Pass (subject to weather)",
+            "Natural hot springs at Vashisht",
+            "Shopping at Mall Road and Old Manali"
+        ],
+        "included": [
+            "Comfortable AC transportation throughout",
+            "4 nights stay in a 3-star hotel",
+            "Daily breakfast and dinner",
+            "All sightseeing as per itinerary",
+            "Adventure activities at Solang Valley",
+            "Services of experienced driver"
+        ],
+        "itinerary": [
+            {
+                "day": 1,
+                "title": "Arrival in Manali",
+                "description": "Arrive in Manali and check into your hotel. Evening free to explore Mall Road and local markets. Overnight stay in Manali."
+            },
+            {
+                "day": 2,
+                "title": "Manali Local Sightseeing",
+                "description": "Visit Hadimba Temple, Manu Temple, and the Tibetan Monastery. Explore Vashisht hot springs and Old Manali. Evening at leisure."
+            },
+            {
+                "day": 3,
+                "title": "Solang Valley Adventure",
+                "description": "Full day excursion to Solang Valley. Enjoy paragliding, zorbing, and cable car rides. Experience the stunning mountain views and adventure activities."
+            },
+            {
+                "day": 4,
+                "title": "Rohtang Pass Excursion",
+                "description": "Early morning trip to Rohtang Pass (subject to permit and weather). Experience snow activities and breathtaking mountain panoramas. Return to Manali by evening."
+            },
+            {
+                "day": 5,
+                "title": "Departure",
+                "description": "After breakfast, check out from hotel. Departure with wonderful memories of your Manali adventure."
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "slug": "dubai-uae",
+        "name": "Dubai, UAE",
+        "location": "United Arab Emirates",
+        "type": "adventure",
+        "price": 125000,
+        "rating": 4.9,
+        "duration": "6 Days / 5 Nights",
+        "description": "Experience the luxury and grandeur of Dubai, a city where modern architecture meets Arabian heritage. From world-class shopping to thrilling desert safaris, Dubai offers an unforgettable experience for every traveler.",
+        "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800",
+        "featured": true,
+        "gallery": [
+            "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=600",
+            "https://images.unsplash.com/photo-1518684079-3c830dcef090?w=600",
+            "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=600",
+            "https://images.unsplash.com/photo-1580674285054-bed31e145f59?w=600"
+        ],
+        "highlights": [
+            "Visit the iconic Burj Khalifa observation deck",
+            "Desert safari with dune bashing and BBQ dinner",
+            "Explore the traditional Gold and Spice Souks",
+            "Dhow cruise along Dubai Creek",
+            "Visit the architectural marvel of Burj Al Arab"
+        ],
+        "included": [
+            "Round-trip economy class airfare",
+            "5 nights accommodation in 4-star hotel",
+            "Daily breakfast buffet",
+            "Dubai city tour with Burj Khalifa tickets",
+            "Desert safari with BBQ dinner",
+            "All transfers and tours in AC vehicle"
+        ],
+        "itinerary": [
+            {
+                "day": 1,
+                "title": "Arrival in Dubai",
+                "description": "Arrive at Dubai International Airport. Transfer to hotel and check-in. Rest of the day at leisure. Overnight in Dubai."
+            },
+            {
+                "day": 2,
+                "title": "Dubai City Tour",
+                "description": "Half-day city tour covering Burj Al Arab, Palm Jumeirah, Dubai Marina, and traditional souks. Evening visit to Burj Khalifa's observation deck on the 124th floor."
+            },
+            {
+                "day": 3,
+                "title": "Desert Safari Adventure",
+                "description": "Morning at leisure. Afternoon desert safari with dune bashing, camel riding, sandboarding, and traditional Arabian entertainment. BBQ dinner under the stars."
+            },
+            {
+                "day": 4,
+                "title": "Dubai Mall & Fountain Show",
+                "description": "Visit Dubai Mall for shopping. Watch the mesmerizing Dubai Fountain show. Optional: Visit Dubai Aquarium or ski at Ski Dubai."
+            },
+            {
+                "day": 5,
+                "title": "Abu Dhabi Day Trip",
+                "description": "Full day excursion to Abu Dhabi. Visit Sheikh Zayed Grand Mosque, Emirates Palace, and Louvre Abu Dhabi. Return to Dubai in evening."
+            },
+            {
+                "day": 6,
+                "title": "Departure",
+                "description": "Breakfast at hotel. Check-out and transfer to airport for your return flight with unforgettable Dubai memories."
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "slug": "kyoto-japan",
+        "name": "Kyoto, Japan",
+        "location": "Japan",
+        "type": "cultural",
+        "price": 145000,
+        "rating": 4.7,
+        "duration": "8 Days / 7 Nights",
+        "description": "Immerse yourself in the cultural richness of Kyoto, Japan's ancient capital. Explore thousands of temples, traditional geisha districts, stunning gardens, and experience authentic Japanese culture and cuisine.",
+        "image": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800",
+        "featured": true,
+        "gallery": [
+            "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600",
+            "https://images.unsplash.com/photo-1528164344705-47542687000d?w=600",
+            "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=600",
+            "https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?w=600"
+        ],
+        "highlights": [
+            "Visit the iconic Fushimi Inari Shrine with thousands of torii gates",
+            "Explore the golden Kinkaku-ji Temple",
+            "Walk through the enchanting Arashiyama Bamboo Grove",
+            "Experience traditional tea ceremony",
+            "Discover the historic Gion geisha district"
+        ],
+        "included": [
+            "Round-trip international flights",
+            "7 nights in traditional ryokan and modern hotels",
+            "Daily breakfast and 4 traditional Japanese dinners",
+            "7-day Japan Rail Pass",
+            "Guided tours with English-speaking guide",
+            "All entry fees to temples and attractions"
+        ],
+        "itinerary": [
+            {
+                "day": 1,
+                "title": "Arrival in Kyoto",
+                "description": "Arrive at Kansai International Airport. Transfer to your hotel in Kyoto. Evening orientation walk around the hotel area."
+            },
+            {
+                "day": 2,
+                "title": "Northern Kyoto Temples",
+                "description": "Visit Kinkaku-ji (Golden Pavilion), Ryoan-ji rock garden, and Ninnaji Temple. Evening walk through Pontocho Alley."
+            },
+            {
+                "day": 3,
+                "title": "Fushimi Inari & Southern Kyoto",
+                "description": "Early morning visit to Fushimi Inari Shrine. Explore the thousands of vermillion torii gates. Visit Tofuku-ji Temple and traditional sake breweries."
+            },
+            {
+                "day": 4,
+                "title": "Arashiyama District",
+                "description": "Full day in Arashiyama. Walk through the famous Bamboo Grove, visit Tenryu-ji Temple, cross Togetsukyo Bridge, and ride the scenic railway."
+            },
+            {
+                "day": 5,
+                "title": "Cultural Experiences",
+                "description": "Participate in a traditional tea ceremony. Kimono wearing experience. Visit a geisha performance in Gion district. Explore Nishiki Market."
+            },
+            {
+                "day": 6,
+                "title": "Day Trip to Nara",
+                "description": "Excursion to nearby Nara. Visit Todai-ji Temple with the giant Buddha, Nara Park with friendly deer, and Kasuga Taisha Shrine."
+            },
+            {
+                "day": 7,
+                "title": "Eastern Kyoto",
+                "description": "Visit Kiyomizu-dera Temple, walk through Higashiyama district, explore Sanjusangendo Hall, and stroll along the Philosopher's Path."
+            },
+            {
+                "day": 8,
+                "title": "Departure",
+                "description": "Final breakfast at the hotel. Last-minute shopping for souvenirs. Transfer to airport for departure with cherished memories of Japan."
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "slug": "santorini-greece",
+        "name": "Santorini, Greece",
+        "location": "Greece",
+        "type": "beach",
+        "price": 110000,
+        "rating": 4.9,
+        "duration": "6 Days / 5 Nights",
+        "description": "Discover the stunning island of Santorini with its iconic white-washed buildings, blue-domed churches, and spectacular sunsets. Experience Greek hospitality, delicious cuisine, and the beauty of the Aegean Sea.",
+        "image": "https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?w=800",
+        "gallery": [
+            "https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?w=600",
+            "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=600",
+            "https://images.unsplash.com/photo-1533105079780-92b9be482077?w=600",
+            "https://images.unsplash.com/photo-1590523278191-995cbcda646b?w=600"
+        ],
+        "highlights": [
+            "Watch the world-famous Oia sunset",
+            "Explore the ancient ruins of Akrotiri",
+            "Wine tasting at traditional wineries",
+            "Swim in the unique Red and Black beaches",
+            "Sail around the volcanic caldera"
+        ],
+        "included": [
+            "Round-trip flights to Santorini",
+            "5 nights in cave hotel with caldera view",
+            "Daily breakfast with local specialties",
+            "Sunset catamaran cruise",
+            "Wine tasting tour",
+            "All airport and hotel transfers"
+        ],
+        "itinerary": [
+            {
+                "day": 1,
+                "title": "Arrival in Santorini",
+                "description": "Arrive at Santorini Airport. Transfer to your cave hotel in Oia or Fira. Settle in and enjoy the stunning caldera views. Evening at leisure."
+            },
+            {
+                "day": 2,
+                "title": "Island Tour",
+                "description": "Full day island tour visiting Pyrgos village, Megalochori, Prophet Elias Monastery, and the ancient ruins of Akrotiri. Sunset viewing at Oia."
+            },
+            {
+                "day": 3,
+                "title": "Beach Day",
+                "description": "Visit the famous Red Beach and Black Beach (Perissa). Enjoy swimming and sunbathing. Optional water sports activities. Beachside lunch at a traditional taverna."
+            },
+            {
+                "day": 4,
+                "title": "Wine & Culture",
+                "description": "Wine tasting tour visiting 3 traditional wineries. Learn about Santorini's unique viticulture. Visit Santo Winery with panoramic views. Evening free to explore Fira town."
+            },
+            {
+                "day": 5,
+                "title": "Catamaran Cruise",
+                "description": "Full day sunset catamaran cruise around the island. Sail through the caldera, swim in hot springs, visit the volcano, and enjoy BBQ on board. Watch the sunset from the sea."
+            },
+            {
+                "day": 6,
+                "title": "Departure",
+                "description": "Enjoy your final breakfast overlooking the caldera. Free time for last-minute shopping in Fira. Transfer to airport for your departure flight."
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "slug": "ladakh-kashmir",
+        "name": "Leh-Ladakh",
+        "location": "India",
+        "type": "adventure",
+        "price": 45000,
+        "rating": 4.8,
+        "duration": "7 Days / 6 Nights",
+        "description": "Embark on an unforgettable journey to the roof of the world. Experience the stark beauty of high-altitude deserts, pristine lakes, ancient monasteries, and the thrill of mountain passes in the majestic Himalayas.",
+        "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800",
+        "gallery": [
+            "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600",
+            "https://images.unsplash.com/photo-1585338234931-0bdca8b6f812?w=600",
+            "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=600",
+            "https://images.unsplash.com/photo-1519417387460-d35c1556dc73?w=600"
+        ],
+        "highlights": [
+            "Visit the stunning Pangong Lake",
+            "Explore ancient monasteries - Thiksey, Hemis, and Diskit",
+            "Drive through Khardung La, world's highest motorable road",
+            "Experience double-humped Bactrian camels at Nubra Valley",
+            "Marvel at the confluence of Indus and Zanskar rivers"
+        ],
+        "included": [
+            "All transfers and sightseeing in SUV vehicles",
+            "6 nights accommodation in hotels and camps",
+            "Daily breakfast and dinner",
+            "Inner line permits for restricted areas",
+            "Experienced driver cum guide",
+            "Oxygen cylinder support (if needed)"
+        ],
+        "itinerary": [
+            {
+                "day": 1,
+                "title": "Arrival in Leh",
+                "description": "Arrive at Leh airport. Transfer to hotel. Complete rest for acclimatization to high altitude. Light walk in Leh market in evening. Overnight in Leh."
+            },
+            {
+                "day": 2,
+                "title": "Leh Local Sightseeing",
+                "description": "Visit Shanti Stupa, Leh Palace, and Hall of Fame museum. Explore local markets. Visit Sangam (confluence of Indus and Zanskar rivers). Overnight in Leh."
+            },
+            {
+                "day": 3,
+                "title": "Nubra Valley via Khardung La",
+                "description": "Drive to Nubra Valley via Khardung La Pass (18,380 ft). Visit Diskit Monastery and giant Buddha statue. Enjoy camel safari in Hunder sand dunes. Overnight in Nubra."
+            },
+            {
+                "day": 4,
+                "title": "Nubra to Pangong Lake",
+                "description": "Drive to Pangong Lake via Shyok route. Enjoy the changing colors of the lake. Photography at this stunning location. Overnight camping near Pangong Lake."
+            },
+            {
+                "day": 5,
+                "title": "Pangong to Leh",
+                "description": "Early morning at Pangong Lake. Drive back to Leh via Changla Pass. En-route visit Thiksey Monastery and Shey Palace. Evening free in Leh. Overnight in Leh."
+            },
+            {
+                "day": 6,
+                "title": "Monasteries Tour",
+                "description": "Full day excursion to Hemis Monastery, Stakna Monastery, and Magnetic Hill. Visit the colorful markets of Leh for souvenir shopping. Farewell dinner."
+            },
+            {
+                "day": 7,
+                "title": "Departure",
+                "description": "After breakfast, transfer to Leh airport for your onward journey with unforgettable memories of Ladakh."
+            }
+        ]
+    }
+]
