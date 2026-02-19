@@ -51,25 +51,51 @@ function App() {
                             <li><Link to="/destinations" onClick={() => setMenuOpen(false)}>Destinations</Link></li>
                             <li><Link to="/contact" onClick={() => setMenuOpen(false)}>Contact</Link></li>
 
-                            {user ? (
-                                <li>
-                                    <button onClick={handleLogout} className="logout-btn">
-                                        Hi, {user.name.split(' ')[0]} (Logout)
-                                    </button>
-                                </li>
-                            ) : (
-                                <li>
+                            <li>
+                                {user ? (
+                                    <div className="auth-user-group">
+                                        <div className="auth-user-btn">
+                                            <span className="auth-user-avatar">
+                                                {user.name.charAt(0).toUpperCase()}
+                                            </span>
+                                            <span className="auth-user-name">
+                                                {user.name.split(' ')[0]}
+                                            </span>
+                                        </div>
+                                        <div className="auth-arrow-wrap">
+                                            <button className="auth-arrow-btn" aria-label="Account options">
+                                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                                    <path d="M2 4L6 8L10 4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                                                </svg>
+                                            </button>
+                                            <div className="auth-dropdown">
+                                                <button className="auth-signout-btn" onClick={handleLogout}>
+                                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                                                        <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4" />
+                                                        <polyline points="16 17 21 12 16 7" />
+                                                        <line x1="21" y1="12" x2="9" y2="12" />
+                                                    </svg>
+                                                    Sign Out
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                ) : (
                                     <button
                                         onClick={() => {
                                             setAuthModalOpen(true);
                                             setMenuOpen(false);
                                         }}
-                                        className="login-btn"
+                                        className="auth-signin-btn"
                                     >
-                                        Login / Register
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                                            <circle cx="12" cy="7" r="4" />
+                                        </svg>
+                                        Sign In
                                     </button>
-                                </li>
-                            )}
+                                )}
+                            </li>
                         </ul>
                     </div>
                 </nav>
