@@ -160,10 +160,10 @@ export default function ProjectCard({ project }) {
                     <h3 className="project-title">{project.title}</h3>
                     <p className="project-description">{project.description}</p>
                     <div className="project-links">
-                        <a href={project.liveLink} className="project-link">
+                        <a href={project.liveLink} className="project-link" target="_blank" rel="noopener noreferrer">
                             Live Demo →
                         </a>
-                        <a href={project.githubLink} className="project-link">
+                        <a href={project.githubLink} className="project-link" target="_blank" rel="noopener noreferrer">
                             GitHub →
                         </a>
                     </div>

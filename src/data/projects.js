@@ -7,7 +7,7 @@ export const projects = [
         techTags: ['React', 'Node.js', 'MongoDB'],
         imgId: 'project1-img',
         imgAlt: 'E-Commerce Platform',
-        liveLink: 'web-development-website-gamma.vercel.app',
+        liveLink: 'https://web-development-website-gamma.vercel.app',
         githubLink: 'https://github.com/Nishantkashyap751/new-git/tree/WebDevelopmentProject',
         placeholderColors: ['#00ff9d', '#1a1a26'],
     },
