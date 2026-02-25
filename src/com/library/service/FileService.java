@@ -32,10 +32,8 @@ public class FileService {
                 }
             }
         } catch (FileNotFoundException e) {
-            // This is fine for a new run, just means file doesn't exist yet
             System.out.println("No existing books file found. Starting with empty book list.");
         } catch (IOException e) {
-            // General IO exception handling
             System.err.println("Error reading books file: " + e.getMessage());
         }
         return books;
@@ -43,7 +41,6 @@ public class FileService {
 
     public List<Member> loadMembers() {
         List<Member> members = new ArrayList<>();
-        // Similar implementation as loadBooks, but for Member.java
         try (BufferedReader br = new BufferedReader(new FileReader(MEMBERS_FILE))) {
             String line;
             while ((line = br.readLine()) != null) {
@@ -62,13 +59,11 @@ public class FileService {
 
     public List<Transaction> loadTransactions() {
         List<Transaction> transactions = new ArrayList<>();
-        // Similar implementation as loadBooks, but for Transaction.java
         try (BufferedReader br = new BufferedReader(new FileReader(TRANSACTIONS_FILE))) {
             String line;
             while ((line = br.readLine()) != null) {
                 String[] parts = line.split(",");
                 if (parts.length >= 3) {
-                    // Handle case where returnDate might be missing/empty
                     String returnDate = parts.length == 4 ? parts[3] : "";
                     transactions.add(new Transaction(parts[0], parts[1], parts[2], returnDate));
                 }

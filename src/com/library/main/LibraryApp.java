@@ -16,9 +16,9 @@ public class LibraryApp {
         libraryService = new LibraryService();
         reportService = new ReportService(libraryService);
         scanner = new Scanner(System.in);
-        
+
         System.out.println("--- Welcome to the Beginner Library Management System ---");
-        
+
         int choice;
         do {
             displayMenu();
@@ -67,15 +67,13 @@ public class LibraryApp {
                 reportService.generateIssuedBooksReport();
                 break;
             case 0:
-                // Exit logic is handled in main loop
+
                 break;
             default:
                 System.out.println("Invalid choice. Please try again.");
         }
     }
 
-    // Simple Input Helper Methods
-    
     private static void addBook() {
         System.out.println("\n--- Add Book ---");
         System.out.print("Enter Book ID: ");
@@ -84,12 +82,12 @@ public class LibraryApp {
         String title = scanner.nextLine();
         System.out.print("Enter Author: ");
         String author = scanner.nextLine();
-        
+
         // Default status for a new book is "Available"
         Book newBook = new Book(id, title, author, "Available");
         libraryService.addBook(newBook);
     }
-    
+
     private static void addMember() {
         System.out.println("\n--- Register Member ---");
         System.out.print("Enter Member ID: ");
@@ -98,7 +96,7 @@ public class LibraryApp {
         String name = scanner.nextLine();
         System.out.print("Enter Email: ");
         String email = scanner.nextLine();
-        
+
         Member newMember = new Member(id, name, email);
         libraryService.addMember(newMember);
     }
@@ -109,7 +107,7 @@ public class LibraryApp {
         String bookId = scanner.nextLine();
         System.out.print("Enter Member ID: ");
         String memberId = scanner.nextLine();
-        
+
         libraryService.borrowBook(bookId, memberId);
     }
 
@@ -117,7 +115,7 @@ public class LibraryApp {
         System.out.println("\n--- Return Book ---");
         System.out.print("Enter Book ID to return: ");
         String bookId = scanner.nextLine();
-        
+
         libraryService.returnBook(bookId);
     }
 }

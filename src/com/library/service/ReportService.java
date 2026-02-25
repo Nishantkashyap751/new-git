@@ -1,10 +1,8 @@
 package com.library.service;
-
 import java.util.List;
 import java.util.stream.Collectors;
 
 import com.library.model.Book;
-
 public class ReportService {
 
     private final LibraryService libraryService;
@@ -13,10 +11,7 @@ public class ReportService {
         this.libraryService = libraryService;
     }
 
-    /**
-     * Finds and prints all books that are currently issued.
-     * Uses Stream API for filtering.
-     */
+    
     public void generateIssuedBooksReport() {
         System.out.println("\n--- Issued Books Report ---");
         
@@ -35,7 +30,6 @@ public class ReportService {
             System.out.println(book);
         }
         
-        // Optional: List the active transactions for better detail
         System.out.println("\n--- Active Transactions ---");
         libraryService.getTransactions().stream()
                 // Filter to only keep transactions that haven't been returned (returnDate is empty)

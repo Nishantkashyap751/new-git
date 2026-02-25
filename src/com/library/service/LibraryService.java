@@ -1,12 +1,11 @@
 package com.library.service;
 
+import java.time.LocalDate;
+import java.util.List;
+
 import com.library.model.Book;
 import com.library.model.Member;
-import com.library.model.Transaction;
-
-import java.util.ArrayList;
-import java.util.List;
-import java.time.LocalDate; // Using a simple way to get today's date
+import com.library.model.Transaction; 
 
 public class LibraryService {
     private List<Book> books;
@@ -16,10 +15,11 @@ public class LibraryService {
 
     public LibraryService() {
         this.fileService = new FileService();
-        // Load data on startup
         this.books = fileService.loadBooks();
         this.members = fileService.loadMembers();
         this.transactions = fileService.loadTransactions();
+        // Switch between new DatabaseService() and new FileService() as needed
+       
     }
 
     // --- Book Management ---
@@ -92,12 +92,9 @@ public class LibraryService {
         }
 
         if (book.getStatus().equals("Issued")) {
-            // 1. Find the active transaction (returnDate is empty)
             for (Transaction t : transactions) {
                 if (t.getBookId().equals(bookId) && t.getReturnDate().isEmpty()) {
-                    // 2. Update transaction return date
                     t.setReturnDate(LocalDate.now().toString());
-                    // 3. Update book status
                     book.setStatus("Available");
                     System.out.println("Successfully returned: '" + book.getTitle() + "'");
                     return true;
@@ -111,7 +108,6 @@ public class LibraryService {
         }
     }
 
-    // Getter for the collections (used by ReportService)
     public List<Book> getBooks() {
         return books;
     }
@@ -125,5 +121,6 @@ public class LibraryService {
         fileService.saveBooks(books);
         fileService.saveMembers(members);
         fileService.saveTransactions(transactions);
+        
     }
 }

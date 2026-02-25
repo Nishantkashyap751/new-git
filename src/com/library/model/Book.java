@@ -4,9 +4,8 @@ public class Book {
     private String bookId;
     private String title;
     private String author;
-    private String status; // e.g., "Available" or "Issued"
+    private String status; 
 
-    // Constructor
     public Book(String bookId, String title, String author, String status) {
         this.bookId = bookId;
         this.title = title;
@@ -14,16 +13,13 @@ public class Book {
         this.status = status;
     }
 
-    // Getters
     public String getBookId() { return bookId; }
     public String getTitle() { return title; }
     public String getAuthor() { return author; }
     public String getStatus() { return status; }
 
-    // Setter (used for updating status on borrow/return)
     public void setStatus(String status) { this.status = status; }
 
-    // Method to convert object to CSV line
     public String toCsvLine() {
         return bookId + "," + title + "," + author + "," + status;
     }
