@@ -950,6 +950,8 @@ tbody tr:last-child td {
   .menu-toggle {
     display: flex;
     z-index: 2200;
+    margin-right: 10px;
+    /* Space from the logo */
   }
 
   .mobile-logo {
