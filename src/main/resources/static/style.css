@@ -214,6 +214,13 @@ body {
   color: var(--muted);
 }
 
+.mobile-logo {
+  display: none;
+  height: 42px;
+  width: auto;
+  filter: drop-shadow(0 0 5px rgba(0, 255, 157, 0.2));
+}
+
 .status-dot {
   width: 8px;
   height: 8px;
@@ -945,6 +952,11 @@ tbody tr:last-child td {
     z-index: 2200;
   }
 
+  .mobile-logo {
+    display: block;
+    margin-right: 5px;
+  }
+
   .header-actions {
     gap: 8px;
   }
@@ -973,14 +985,25 @@ tbody tr:last-child td {
   }
 
   .anim-scene {
-    gap: 40px;
+    gap: 20px;
     flex-direction: column;
     height: auto;
     padding: 20px 0;
   }
 
   .data-flow-container {
-    display: none;
+    position: relative;
+    top: 0;
+    transform: none;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #data-lottie {
+    width: 140px;
+    height: 140px;
   }
 
   .connect-container {
