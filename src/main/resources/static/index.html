@@ -22,6 +22,8 @@
       <div class="preloader-text">Summoning data...</div>
     </div>
   </div>
+  <!-- ── Sidebar Overlay ── -->
+  <div id="sidebar-overlay" class="sidebar-overlay"></div>
 
   <!-- ── Sidebar ──────────────────────────────────────────────────────────── -->
   <nav class="sidebar">
@@ -47,6 +49,13 @@
       </div>
 
       <div class="header-actions">
+        <!-- Mobile Menu Toggle -->
+        <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
         <!-- Theme Toggle Button -->
         <button class="theme-toggle" id="theme-toggle" onclick="toggleTheme()" title="Toggle theme">
           <span class="theme-icon" id="theme-icon">🌙</span>

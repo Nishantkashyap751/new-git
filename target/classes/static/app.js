@@ -34,6 +34,25 @@ function toggleBroom(tabId, show) {
 }
 
 // ── Sidebar Navigation ────────────────────────────────────────────────────────
+const sidebar = document.querySelector('.sidebar');
+const overlay = document.getElementById('sidebar-overlay');
+const menuToggle = document.getElementById('menu-toggle');
+
+function toggleSidebar(show) {
+    if (show === undefined) show = !sidebar.classList.contains('open');
+
+    if (show) {
+        sidebar.classList.add('open');
+        overlay.classList.add('active');
+    } else {
+        sidebar.classList.remove('open');
+        overlay.classList.remove('active');
+    }
+}
+
+if (menuToggle) menuToggle.addEventListener('click', () => toggleSidebar());
+if (overlay) overlay.addEventListener('click', () => toggleSidebar(false));
+
 document.querySelectorAll('.nav-btn').forEach(btn => {
     btn.addEventListener('click', () => {
         document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
@@ -42,6 +61,11 @@ document.querySelectorAll('.nav-btn').forEach(btn => {
         btn.classList.add('active');
         const targetTab = btn.dataset.tab;
         document.getElementById('tab-' + targetTab).classList.add('active');
+
+        // Close sidebar on mobile after clicking a link
+        if (window.innerWidth <= 768) {
+            toggleSidebar(false);
+        }
 
         // Hide animation panel on Connect tab
         const animPanel = document.getElementById('anim-panel');
