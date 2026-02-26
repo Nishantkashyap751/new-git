@@ -947,16 +947,24 @@ tbody tr:last-child td {
     z-index: 100;
   }
 
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
   .menu-toggle {
     display: flex;
     z-index: 2200;
-    margin-right: 10px;
-    /* Space from the logo */
   }
 
   .mobile-logo {
     display: block;
-    margin-right: 5px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    z-index: 50;
   }
 
   .header-actions {
