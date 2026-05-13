@@ -1,0 +1,286 @@
+.projects-page, .project-detail {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.projects-header, .project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.projects-header h1, .project-header h1 {
+  color: #333;
+  margin: 0;
+}
+
+.project-header {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.project-header .description {
+  color: #666;
+  margin-top: 10px;
+}
+
+.project-actions {
+  margin-top: 20px;
+}
+
+.btn-primary, .btn-danger {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-primary {
+  background: #667eea;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #5568d3;
+}
+
+.btn-danger {
+  background: #ff6b6b;
+  color: white;
+}
+
+.btn-danger:hover {
+  background: #ff5252;
+}
+
+.create-project-form, .task-form {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 5px rgba(102, 126, 234, 0.1);
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.project-card, .task-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s;
+}
+
+.project-card:hover, .task-card:hover {
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+}
+
+.project-card h3 {
+  margin: 0 0 10px 0;
+  color: #333;
+  font-size: 18px;
+}
+
+.project-card .description {
+  color: #666;
+  margin-bottom: 15px;
+  font-size: 14px;
+  min-height: 40px;
+}
+
+.project-meta {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 12px;
+}
+
+.status {
+  padding: 4px 8px;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+.status.active {
+  background: #e3f2fd;
+  color: #1565c0;
+}
+
+.status.archived {
+  background: #f5f5f5;
+  color: #666;
+}
+
+.status.completed {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.status.todo {
+  background: #f5f5f5;
+  color: #666;
+}
+
+.status.in-progress {
+  background: #fff3e0;
+  color: #e65100;
+}
+
+.status.in-review {
+  background: #e8eaf6;
+  color: #3f51b5;
+}
+
+.members {
+  color: #999;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 40px;
+  color: #999;
+}
+
+.project-detail h1 {
+  color: #333;
+  margin: 0;
+}
+
+.tasks-section {
+  margin-top: 30px;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.section-header h2 {
+  color: #333;
+  margin: 0;
+  font-size: 20px;
+}
+
+.tasks-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.task-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  border-left: 4px solid #667eea;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.task-title {
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.task-footer {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  font-size: 11px;
+}
+
+.priority {
+  padding: 3px 6px;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+.priority.low {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.priority.medium {
+  background: #fff3e0;
+  color: #e65100;
+}
+
+.priority.high {
+  background: #ffebee;
+  color: #c62828;
+}
+
+.priority.urgent {
+  background: #fce4ec;
+  color: #ad1457;
+}
+
+.assignee {
+  background: #e3f2fd;
+  color: #1565c0;
+  padding: 3px 6px;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+.loading, .error {
+  text-align: center;
+  padding: 40px;
+  color: #999;
+  font-size: 16px;
+}
+
+.error {
+  color: #ff6b6b;
+}
