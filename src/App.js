@@ -117,7 +117,7 @@ function App() {
                     <div className="container">
                         <div className="footer-grid">
                             <div className="footer-section footer-logo-section">
-                                <img src="/images/logo1.png" alt="Elite Adventures" className="footer-logo" />
+                                <img src="/images/logo.png" alt="Elite Adventures" className="footer-logo" />
                                 <p>Creating unforgettable travel experiences since 2010. Your adventure starts here.</p>
                             </div>
                             <div className="footer-section">
