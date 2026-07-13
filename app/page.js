@@ -20,7 +20,7 @@ export default function Home() {
                     playsInline
                     className="hero-video"
                 >
-                    <source src="/videos/hero-video.mp4" type="video/mp4" />
+                    <source src="https://ri2lu1rszntfq6gt.private.blob.vercel-storage.com/hero-video.mp4?vercel-blob-delegation=eyJzdG9yZUlkIjoic3RvcmVfUmkyTHUxclN6TlRGcTZHdCIsIm93bmVySWQiOiJ0ZWFtX1FGaVR6ckxQRnJiQmZQSk1KQ2Y1RGxWUSIsInBhdGhuYW1lIjoiKiIsIm9wZXJhdGlvbnMiOlsiZ2V0IiwiaGVhZCJdLCJ2YWxpZFVudGlsIjoxNzgzOTk3NjY3OTIwLCJpYXQiOjE3ODM5NTQ0NjgxMjd9.o8fZuMFiO2t9GMT_PwR0LebspNaZEectX7-lm3ZNIq8&vercel-blob-signature=bldAFyozHvYbbBjtMNS4EQkKqLUtZmmhCuDZLUKfSTM" type="video/mp4" />
                 </video>
                 <div className="hero-texture-overlay"></div>
                 <div className="hero-particles"></div>
